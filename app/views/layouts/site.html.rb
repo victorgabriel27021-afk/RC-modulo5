@@ -18,7 +18,7 @@
   </head>
 
   <body>
-    <h1>LAYOUT PROFILES</h1>
+    <h1>LAYOUT SITE</h1>
     <%= yield %>
   </body>
 </html>
