@@ -4,5 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:victorgabriel27021-afk/RC-modulo5.git",
   "author": "Victor Gabriel <victorgabriel27021@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "font-awesome": "4.6.3",
+    "jquery": "3.3.1",
+    "metismenu": "3.0.3"
+  }
 }
