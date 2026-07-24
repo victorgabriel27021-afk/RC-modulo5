@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
   <title>TimeToAnswer</title>
 
@@ -10,13 +9,22 @@
   <%= stylesheet_link_tag "admins_backoffice", "data-turbo-track": "reload" %>
   <%= javascript_include_tag "application", "data-turbo-track": "reload" %>
 </head>
+
 <body>
 
-    <div id="wrapper">
+<div id="wrapper">
 
-        <%= yield %>
-    </div>
+  <%= render "layouts/admins_backoffice_shared/topbar" %>
+
+  <%= render "layouts/admins_backoffice_shared/sidebar" %>
+
+  <div id="page-wrapper">
+    <%= yield %>
+
+    <%= render "layouts/admins_backoffice_shared/footer" %>
+  </div>
+
+</div>
 
 </body>
-
 </html>
