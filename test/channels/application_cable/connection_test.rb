@@ -9,5 +9,6 @@ module ApplicationCable
     #
     #   assert_equal connection.user_id, "42"
     # end
+    # 
   end
 end
