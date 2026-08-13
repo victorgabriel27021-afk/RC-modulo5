@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   namespace :users_backoffice do
+    get "questions/index"
     get "welcome/index"
   end
   devise_for :users
