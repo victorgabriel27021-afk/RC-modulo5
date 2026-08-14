@@ -3,6 +3,9 @@ Rails.application.routes.draw do
     get "questions/index"
     get "welcome/index"
   end
+  namespace :users_backoffice do
+  resources :questions, only: [:index, :new]
+  end
   devise_for :users
   namespace :site do
     get "welcome/index"
