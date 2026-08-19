@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     get "welcome/index"
   end
   namespace :users_backoffice do
-  resources :questions, only: [:index, :new]
+  resources :questions, only: [:index, :new :create]
   end
   devise_for :users
   namespace :site do
